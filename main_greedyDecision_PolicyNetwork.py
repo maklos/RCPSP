@@ -707,6 +707,7 @@ for run in range(numberOfExperiments):
         # print('actions:',actions)
 
     ####  TRAIN MODEL USING TRAINING DATA  ####
+    print("###### TRAINING MODEL  ######")
     # look for existing model
     if importExistingNeuralNetworkModel:
         print("check if a neural network model exists")
